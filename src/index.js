@@ -47,7 +47,7 @@ export const getFixedValue = (number, accuracy) => {
  * @returns {number}
  */
 export const getFlooroCeil = (number) => {
-    if(Math.round(number)%2===0) return Math.floor(number);
+    if(Math.floor(number)%2===0) return Math.floor(number);
     else return Math.ceil(number);
 };
 
